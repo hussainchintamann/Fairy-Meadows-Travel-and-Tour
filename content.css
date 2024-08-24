@@ -1,0 +1,145 @@
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .main-contents{
+    background-color: #f6f6f6;
+
+  }
+  .wrappers{
+    
+    width: 40%;
+    
+    
+  }
+
+  .about-left{
+       margin-left: 40px;
+  }
+.about-right {
+width: 40%;
+float:right;
+}
+   .linesss {
+    height: 185px;
+    width: 5px;
+     background-color: black;
+     /* margin-left: 230px; */
+     float: left;
+   
+   }
+   
+
+   
+
+    .about-left span.one {
+    
+      
+      font-size: 40px;
+      font-weight: 900;
+      color: black;
+    }
+    .about-left span.two {
+    
+      
+      font-size: 40px;
+      font-weight:10 !important;
+    }
+.check {
+
+width: 80%;
+margin-top: 20px; 
+
+}
+
+.check p {
+
+font-size: 15px; ;
+color: #aeabab;
+font-weight: 1;
+
+}
+   
+
+    
+    @media only screen and (max-width:1024px) {
+      
+      .about-right {
+        width: 10%;
+        float:right;
+      }
+
+      .wrappers {
+        width: 60%;
+      }
+
+      .check {
+
+        width: 80%;
+        /* margin-top: 50px;  */
+      
+      }
+
+      .linesss {
+        height: 110px;
+     
+    }
+  }
+
+    @media only screen and (max-width:768px) {
+     
+      .wrappers {
+        width: 80%;
+        /* border: 1px solid black; */
+      }
+      .about-right {
+        width: 0%;
+        float:right;
+      }
+     
+
+      .linesss {
+        height: 95px;
+     
+       }
+       .about-left span.one {
+    
+      
+        font-size: 32px;
+        
+      }
+      .about-left span.two {
+      
+        
+        font-size: 32px;
+       
+      }
+    }
+    
+
+
+
+    @media only screen and (max-width:425px) {
+     
+      .wrappers {
+        width: 70%;
+        /* border: 1px solid black; */
+       
+      }
+      .linesss {
+        height: 195px;
+     
+       }
+
+       .check {
+
+        width: 90%;
+        margin-top: 20px; 
+      
+      }
+      }

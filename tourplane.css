@@ -1,0 +1,97 @@
+*{
+  
+    margin:0;
+    padding:0;
+    outline:none;
+    text-decoration:none;
+    list-style:none;
+    font-family: 'Mulish', sans-serif;
+    
+  }
+  
+ /* body{
+    display:flex;
+    padding-top:50px;
+    justify-content:center;
+    background:#ecf1f5;
+    transform:scale(0.8) translateY(-50px);
+    
+    
+  } */
+
+  /* .cardTop{
+    
+    width:1500px;
+    height:284px;
+    background: #FAC24F;
+    border-radius: 20px;
+    display:flex;
+    overflow:hidden;
+    align-items:flex-end;
+  
+    
+    
+  }
+   */
+
+   .back-imgs {
+    /* background-image: url(./america.jpg); */
+    /* height: 500px; */
+    background-size: cover;
+    position: relative;
+    min-height: 70vh;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    /* margin-bottom: 865px; */
+}
+
+
+
+.back-imgs h2 {
+    font-size: 5rem;
+    color: white;
+}
+
+.color-overlays {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+@media only screen and (max-width :768px) {
+ 
+  .back-imgs h2 {
+      font-size: calc(1.525 + 3.3w);
+  }   
+}
+
+@media only screen and (max-width :425px) {
+
+  .back-imgs h2 {
+    font-size: 2.5rem;
+} 
+}
+
+
+
+.service-item {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+  transition: 0.3s !important;
+}
+.service-item:hover {
+  background-color:#dfa8a1;
+  color: white !important;
+  transition: 0s;
+}
+.service-item h3:hover {
+ 
+  color: white  !important;
+}
+.service-item *{
+  transition: 0.5s;
+}
+.service-item:hover*{
+ 
+ 
+}

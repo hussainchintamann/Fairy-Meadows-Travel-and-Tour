@@ -1,0 +1,63 @@
+
+.wrappers{
+    text-align: center;
+    /* margin-left: auto; */
+    /* margin-right:auto ; */
+    margin-bottom: 40px;
+}
+
+.parents {
+width: 260px;
+/* margin: 10px; */
+height: 250px;
+overflow: hidden;
+display: inline-block;
+box-shadow: 0 4px 6px -1px rgba(0,0,0,0.5);
+position: relative;
+border-radius: 2px;
+
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+
+
+.bg-one {
+    background-image: url(./america.jpg);
+}
+
+.parents:hover .child{
+    transform: scale(1.1);
+}
+
+.card-info{
+    background-color: #f8f3f3;
+    width: 260px;
+    
+    border-radius: 2px;
+    
+}
+
+@media only screen and (max-width:1024px) {
+    .parents,.card-info {
+        width: 220px;
+    }
+    
+}
+
+@media only screen and (max-width:768px) {
+    .parents,.card-info {
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .parents,.card-info {
+        width: 380px;
+    }
+}
+
