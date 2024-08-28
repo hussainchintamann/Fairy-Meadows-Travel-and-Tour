@@ -44,3 +44,5 @@ const viewDetails = (index)=>{
 }
 
 displayCards()
+
+
