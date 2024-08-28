@@ -63,7 +63,7 @@ const umrahPackages = [
 // Function to display package details
 function displayDetails() {
     const params = new URLSearchParams(document.location.search);
-    const index = params.get('index');
+    const index = params.get("index");
     
     if (index !== null && umrahPackages[index]) {
         const package = umrahPackages[index];
