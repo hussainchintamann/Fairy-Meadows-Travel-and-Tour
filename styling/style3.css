@@ -16,7 +16,25 @@
 .back-img h2 {
     font-size: 5rem;
     color: white;
+    
 }
+
+.back-img .book-btn{
+        background-color: #ff5a5f;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 140px;
+    }
+    
+    .back-img button:hover {
+        background-color: #e14b50;
+    }
+    
+
 
 .color-overlay {
     position: absolute;
