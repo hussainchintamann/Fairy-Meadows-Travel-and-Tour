@@ -105,6 +105,11 @@ outline: none;
     background: no-repeat scroll center scroll;
     -webkit-background-size: cover;
     background-size: cover;
+   
+  }
+
+  .carousel-item img {
+    width: 100%;
   }
   
   .carousel-item::before{
@@ -165,6 +170,17 @@ outline: none;
         font-size: 1.8rem;
         margin-right: 365px;
     }
+
+    .carousel-caption {
+        top: 180px;
+        padding-left: 90px;
+        padding-right: 90px;
+       
+      }
+
+      .carousel-caption h5{
+        font-size: 30px;
+      }
 }
 
 @media only screen and (max-width:425px)
@@ -179,6 +195,22 @@ outline: none;
         font-size: 1.5rem;
         margin-right: 365px;
     }
+    .carousel-item img{
+        
+        width: 100%;
+        height: 100%;
+      }
+
+      .carousel-caption {
+        top: 190px;
+        padding-left: 0px;
+        padding-right: 0px;
+       
+      }
+
+      .carousel-caption h5{
+        font-size: 25px;
+      }
 }
 
 

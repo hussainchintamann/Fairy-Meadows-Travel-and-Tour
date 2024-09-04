@@ -16,6 +16,10 @@
     left: 12px;
 }
 
+.whatsapp_main img{
+    width: 5%;
+}
+
 .post-slider{
   
     position: relative;
@@ -181,6 +185,14 @@ font-size: 12px;
        
         height: 270px;
        
+    }
+    .whatsapp_main {
+        bottom: 15px;
+        left: 15px;
+    }
+    
+    .whatsapp_main img{
+        width: 10%;
     }
         
 
