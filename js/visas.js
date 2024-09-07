@@ -1,37 +1,37 @@
 
 let evisas = [
     {
-        img1 : ('../images/asia1.jpeg'),
+        img1 : ('../images/sharjah.jpg'),
         text1 : 'Sharjah 30 Days',
        
     },
 
     {
-      img1 : ('../images/asia1.jpeg'),
+      img1 : ('../images/sharjah2.jpg'),
       text1 : 'Sharjah 60 Days',
      
   },
 
   {
-    img1 : ('../images/asia1.jpeg'),
+    img1 : ('../images/malaysia.jpg'),
     text1 : 'Malaysia e-Visa',
     
 },
 
     {
-        img1 : ('../images/america.jpg'),
+        img1 : ('../images/singapore.jpg'),
         text1 : 'Singapore Consulate visa',
 
     },
 
    
   {
-    img1 : ('../images/asia1.jpeg'),
+    img1 : ('../images/azerbaijan.jpg'),
     text1 : 'Azerbaijan e-Visa Normal',
     
 },
 {
-  img1 : ('../images/asia1.jpeg'),
+  img1 : ('../images/azerbaijan2.jpg'),
   text1 : 'Azerbaijan e-Visa Urgent ',
 },
 
@@ -41,42 +41,42 @@ let evisas = [
     },
 
     {
-      img1 : ('../images/america.jpg'),
+      img1 : ('../images/srilanka.jpg'),
       text1 : 'Srilanka e-Visa',
   },
     {
-      img1 : ('../images/america.jpg'),
+      img1 : ('../images/combodia.jpg'),
      
       text1 : 'Cambodia e-Visa ',
      
   },
   {
-    img1 : ('../images/america.jpg'),
+    img1 : ('../images/morocco.jpg'),
    
     text1 : ' Moroco e-Visa  ',
    
 },
 
 {
-  img1 : ('../images/america.jpg'),
+  img1 : ('../images/indonesia.jpg'),
  
   text1 : ' Indonesia e-Visa ',
  
 },
 {
-  img1 : ('../images/america.jpg'),
+  img1 : ('../images/nepal.jpg'),
  
   text1 : 'Nepal e-Visa  ',
  
 },
 {
-  img1 : ('../images/america.jpg'),
+  img1 : ('../images/turkey.jpg'),
  
   text1 : 'Turkey e-Visa ',
  
 },
 {
-  img1 : ('../images/america.jpg'),
+  img1 : ('../images/bahrain.jpg'),
  
   text1 : 'Bahrain 1 Year Multiple eVisa   ',
  
@@ -99,7 +99,7 @@ visaRow.innerHTML = evisa.map((card) => {
     var {img1,text1} = card
     return (
         ` <div class="post ">
-                  <img src= ${img1} alt="" class="slider-img">
+                    <img src= ${img1} alt="" class="slider-img">
                   <div class="post-info1">
                       <h5 class=" text-dark"><a href="#">${text1}</a></h5>
                      

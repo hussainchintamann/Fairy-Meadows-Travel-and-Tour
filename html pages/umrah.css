@@ -165,5 +165,10 @@
 }
 
 
+.card-bg-img{
+    background-size: cover;
+    min-height: 50vh;
+}
+
 
 

@@ -19,20 +19,7 @@
     
 }
 
-.back-img .book-btn{
-        background-color: #ff5a5f;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        padding: 10px 15px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        margin-top: 140px;
-    }
-    
-    .back-img button:hover {
-        background-color: #e14b50;
-    }
+
     
 
 
@@ -94,9 +81,9 @@ font-size: 17px;
  
 
 .card .slider-img{
+    background-size: cover;
+    min-height: 50vh;
     height: 200px;
-    /* border-top-left-radius:5px ;
-    border-top-right-radius:5px ; */
     transition: all 0.5s;
 }
 

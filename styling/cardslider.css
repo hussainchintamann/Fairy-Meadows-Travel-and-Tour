@@ -174,7 +174,15 @@ font-size: 12px;
         
         
         }
+
+        .whatsapp_main {
+            bottom: 13px;
+            left: 13px;
+        }
         
+        .whatsapp_main img{
+            width: 6%;
+        }
 
 }
 

@@ -56,7 +56,7 @@ const displayCards = ()=>{
         <div class="col-lg-6 col-sm-6">
           <div class="service-item rounded pt-3">
             <div class="p-4">
-              <i class="fa-solid fa-3x  fa-globe  mb-4"></i>
+              <i class="fa-solid fa-3x text-primary   fa-globe  mb-4"></i>
               <h3>${package.heading1}</h3>
               <p>${package.text1}</p>
             </div>
@@ -66,7 +66,7 @@ const displayCards = ()=>{
         <div class="col-lg-6 col-sm-6">
           <div class="service-item rounded pt-3">
             <div class="p-4">
-              <img height="80px" class="fa-3x  mb-3  " src="../travel.png" alt="">
+              <i class="fa-solid fa-person-walking-luggage  fa-4x text-primary mb-4 "></i>
               <h3> ${package.heading2} </h3>
               <p> ${package.text2}</p>
 
@@ -76,7 +76,7 @@ const displayCards = ()=>{
         <div class="col-lg-6 col-sm-6">
           <div class="service-item rounded pt-3">
             <div class="p-4">
-              <i class="fa-solid fa-car fa-3x  mb-4"></i>
+              <i class="fa-solid fa-car fa-3x text-primary   mb-4"></i>
               <h3> ${package.heading3}</h3>
               <p>${package.text3}</p>
             </div>
@@ -86,7 +86,7 @@ const displayCards = ()=>{
           <div class="service-item rounded pt-3">
             <div class="p-4">
 
-              <i class=" fa-solid fa-train fa-3x   mb-4"></i>
+              <i class=" fa-solid fa-train fa-3x text-primary    mb-4"></i>
               <h3>${package.heading4}</h3>
               <p>${package.text4}</p>
             </div>
