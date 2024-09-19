@@ -1,22 +1,27 @@
 const worldPacakge = [
     {
         text: "Baku Azerbaijan",
-        
+        img: "../images/baku1.jpg"
     },
     {
         text : "Maldives",
+        img: "../images/maldives1.jpg"
     },
     {
         text : "Malaysia",
+        img: "../images/malaysia1.jpg"
     },
     {
-        text : "Sharm El Sheikh Egypt "
+        text : "Sharm El Sheikh Egypt ",
+        img: "../images/egypt4.jpg"
     },
     {
-        text : "Singapore "
+        text : "Singapore ",
+        img: "../images/singapore.jpg"
     },
     {
-        text : "Thailand"
+        text : "Thailand",
+        img: "../images/thailand2.jpg"
     },
 ]
 
@@ -26,7 +31,7 @@ const generateCardHTMLWorld = (package,index)=>{
     <div class="   col-lg-3 col-md-6 " id="col">
         <div class="wrappers" id="wrappers">
           <div class="parents">
-            <div class="child bg-one">
+            <div class="child bg-one"  style=" background-image: url(${package.img});">
             </div>
 
           </div>

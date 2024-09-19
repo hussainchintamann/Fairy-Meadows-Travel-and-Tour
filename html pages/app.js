@@ -81,7 +81,7 @@ $(document).ready(function()
         return (
             `
               <div class=" col-xl-2  col-lg-4 col-md-4 col-sm-12">
-               <a href="./toursplane.html"> <div class="img-area">
+               <a href="./tourplane.html"> <div class="img-area">
                     <img src= "${img1}" alt="">
                     <div class="img-text">
                         <h3>${text1}</h3>
@@ -91,7 +91,7 @@ $(document).ready(function()
        
 
         <div class=" col-xl-2  col-lg-4 col-md-4 col-sm-6">
-          <a href="./tourplane2.html"> <a href="">  <div class="img-area">
+          <a href="./tourplane2.html"><div class="img-area">
                 <img src="${img1}" alt="">
                 <div class="img-text">
                     <h3>${text2}</h3>

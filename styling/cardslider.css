@@ -59,18 +59,18 @@ margin-bottom: 15px;
 }
 .post-slider1 .next {
     position: absolute;
-    top: 50%;
-    right: 30px;
+    top: 8%;
+    right: -40px;
     cursor: pointer;
     color: #006669;
     font-size: 2em;
     }
 .post-slider1 .prev {
 position: absolute;
-top: 50%;
-left: 30px;
+top: 8%;
+left: -40px;
 cursor: pointer;
-
+/* font-size: 50px; */
 color: #006669;
 font-size: 2em;
 }

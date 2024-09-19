@@ -99,8 +99,8 @@ const displayCardss = ()=>{
             <div class="p-4">
               <i class="fa-solid fa-3x  fa-globe text-primary mb-4"></i>
               <h3>${package.heading1}</h3>
-              <p>.
-              ${package.heading1}
+              <p>
+              ${package.text1}
               </p>
             </div>
           </div>

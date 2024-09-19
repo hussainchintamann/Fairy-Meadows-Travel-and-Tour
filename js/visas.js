@@ -98,7 +98,8 @@ let visaRow = document.getElementById('post-wrapper')
 visaRow.innerHTML = evisa.map((card) => {
     var {img1,text1} = card
     return (
-        ` <div class="post ">
+      
+        ` <div class="post">
                     <img src= ${img1} alt="" class="slider-img">
                   <div class="post-info1">
                       <h5 class=" text-dark"><a href="#">${text1}</a></h5>
@@ -111,24 +112,24 @@ visaRow.innerHTML = evisa.map((card) => {
 
 let stickerVisa = [
   {
-       img2 : ('../images/asia1.jpeg'),
+       img2 : ('../images/thailand.jpg'),
        text2:' Thailand Visa'
   },
   {
       text2:' Egypt Visa ',
-      img2 : ('../images/asia1.jpeg'),
+      img2 : ('../images/Egypt.jpg'),
   },
   {
     text2:'Turkey Visa ',
-    img2 : ('../images/asia1.jpeg'),
+    img2 : ('../images/turkey.jpg'),
   },
   {
     text2:'Malaysia Visa ',
-    img2 : ('../images/asia1.jpeg'),
+    img2 : ('../images/malaysiavisa.jpg'),
   },
   {
     text2:'Philippine Visa',
-    img2 : ('../images/asia1.jpeg'),
+    img2 : ('../images/philppinse.jpg'),
   },
 ]
 
@@ -152,15 +153,15 @@ visaRows.innerHTML = stickyvisa.map((card) => {
 let visaArr = [
   {
     text3:'USA',
-    img3 : ('../images/asia1.jpeg'),
+    img3 : ('../images/USA.jpg'),
   },
   {
     text3:'UK ',
-    img3 : ('../images/asia1.jpeg'),
+    img3 : ('../images/UK.jpg'),
   },
   {
     text3:' Europe / Schengen',
-    img3 : ('../images/asia1.jpeg'),
+    img3 : ('../images/Europe.jpg'),
   },
 ]
 
@@ -200,19 +201,17 @@ visaRows1.innerHTML = visa.map ((card)=>{
 //   }
 // )
 
-
-
 $('.post-wrapper').slick({
   dots: true,
   // infinite: false,
   speed: 1000,
-  slidesToShow: 4,
-  slidesToScroll: 3 ,
+  slidesToShow: 5,
+  slidesToScroll: 3,
   // arrows :false ,
   autoplay: true,
-  autoplaySpeed: 4000,
-  nextArrow : $('.next'),
-  prevArrow : $('.prev'),
+  autoplaySpeed: 3000,
+  // nextArrow : $('.next'),
+  // prevArrow : $('.prev'),
   
   responsive: [
     {
@@ -221,7 +220,7 @@ $('.post-wrapper').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
       //   infinite: true,
-        // dots: true,
+        dots: true,
         
 
       }
@@ -231,6 +230,7 @@ $('.post-wrapper').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2
+        
       }
     },
     {
@@ -245,3 +245,4 @@ $('.post-wrapper').slick({
     // instead of a settings object
   ]
 });
+

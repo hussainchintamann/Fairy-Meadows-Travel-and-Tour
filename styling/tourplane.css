@@ -35,14 +35,13 @@
    */
 
    .back-imgs {
-    /* background-image: url(./america.jpg); */
-    /* height: 500px; */
+    
     background-size: cover;
     position: relative;
-    min-height: 70vh;
+    min-height: 85vh;
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
-    /* margin-bottom: 865px; */
+    
 }
 
 

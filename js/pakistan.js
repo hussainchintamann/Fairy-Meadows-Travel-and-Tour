@@ -1,16 +1,22 @@
 const pakistanPackages = [
     {
         text : "Malam Jabba",
-        
+        img: "../images/malam-jabba.jpg"
     },
     {
         text : "Shogran",
+        img: "../images/shogran.jpg"
+
     },
     {
         text : "Hunza Skardu Gilgit",
+        img: "../images/hunza.jpg"
+
     },
     {
         text : "Swat",
+        img: "../images/kumrat.jpg"
+
     },
 ]
 
@@ -20,7 +26,7 @@ const generateCardHTML = (package,index)=>{
         <div class="wrappers" id="wrappers">
           <div class="parents">
            
-              <div class="child bg-one">
+              <div class="child bg-one" style=" background-image: url(${package.img});">
 
               </div>
 
