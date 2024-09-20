@@ -1,89 +1,89 @@
 
 let evisas = [
     {
-        img1 : ('../images/sharjah.jpg'),
+        img1 : ('../images/sharjah.webp'),
         text1 : 'Sharjah 30 Days',
        
     },
 
     {
-      img1 : ('../images/sharjah2.jpg'),
+      img1 : ('../images/sharjah2.webp'),
       text1 : 'Sharjah 60 Days',
      
   },
 
   {
-    img1 : ('../images/malaysia.jpg'),
+    img1 : ('../images/malaysia.webp'),
     text1 : 'Malaysia e-Visa',
     
 },
 
     {
-        img1 : ('../images/singapore.jpg'),
+        img1 : ('../images/singapore.webp'),
         text1 : 'Singapore Consulate visa',
 
     },
 
    
   {
-    img1 : ('../images/azerbaijan.jpg'),
+    img1 : ('../images/azerbaijan.webp'),
     text1 : 'Azerbaijan e-Visa Normal',
     
 },
 {
-  img1 : ('../images/azerbaijan2.jpg'),
+  img1 : ('../images/azerbaijan2.webp'),
   text1 : 'Azerbaijan e-Visa Urgent ',
 },
 
     {
-        img1 : ('../images/america.jpg'),
+        img1 : ('../images/america.webp'),
         text1 : 'Kenya e-Visa ',
     },
 
     {
-      img1 : ('../images/srilanka.jpg'),
+      img1 : ('../images/srilanka.webp'),
       text1 : 'Srilanka e-Visa',
   },
     {
-      img1 : ('../images/combodia.jpg'),
+      img1 : ('../images/combodia.webp'),
      
       text1 : 'Cambodia e-Visa ',
      
   },
   {
-    img1 : ('../images/morocco.jpg'),
+    img1 : ('../images/morocco.webp'),
    
     text1 : ' Moroco e-Visa  ',
    
 },
 
 {
-  img1 : ('../images/indonesia.jpg'),
+  img1 : ('../images/indonesia.webp'),
  
   text1 : ' Indonesia e-Visa ',
  
 },
 {
-  img1 : ('../images/nepal.jpg'),
+  img1 : ('../images/nepal.webp'),
  
   text1 : 'Nepal e-Visa  ',
  
 },
 {
-  img1 : ('../images/turkey.jpg'),
+  img1 : ('../images/turkey.webp'),
  
   text1 : 'Turkey e-Visa ',
  
 },
 {
-  img1 : ('../images/bahrain.jpg'),
+  img1 : ('../images/morocco.webp'),
  
   text1 : 'Bahrain 1 Year Multiple eVisa   ',
  
 },
 
 {
-  img1 : ('../images/america.jpg'),
+  img1 : ('../images/america.webp'),
  
   text1 : '   ',
  
@@ -112,24 +112,24 @@ visaRow.innerHTML = evisa.map((card) => {
 
 let stickerVisa = [
   {
-       img2 : ('../images/thailand.jpg'),
+       img2 : ('../images/thailand.webp'),
        text2:' Thailand Visa'
   },
   {
       text2:' Egypt Visa ',
-      img2 : ('../images/Egypt.jpg'),
+      img2 : ('../images/Egypt.webp'),
   },
   {
     text2:'Turkey Visa ',
-    img2 : ('../images/turkey.jpg'),
+    img2 : ('../images/turkey.webp'),
   },
   {
     text2:'Malaysia Visa ',
-    img2 : ('../images/malaysiavisa.jpg'),
+    img2 : ('../images/malaysiavisa.webp'),
   },
   {
     text2:'Philippine Visa',
-    img2 : ('../images/philppinse.jpg'),
+    img2 : ('../images/philppinse.webp'),
   },
 ]
 
@@ -153,15 +153,15 @@ visaRows.innerHTML = stickyvisa.map((card) => {
 let visaArr = [
   {
     text3:'USA',
-    img3 : ('../images/USA.jpg'),
+    img3 : ('../images/USA.webp'),
   },
   {
     text3:'UK ',
-    img3 : ('../images/UK.jpg'),
+    img3 : ('../images/UK.webp'),
   },
   {
     text3:' Europe / Schengen',
-    img3 : ('../images/Europe.jpg'),
+    img3 : ('../images/Europe.webp'),
   },
 ]
 

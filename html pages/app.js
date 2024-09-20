@@ -4,46 +4,7 @@ $(document).ready(function()
         $('.nav').toggleClass('showing') 
          })
     });
-    // $('.post-wrapper').slick({
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 3000,
-    //     nextArrow : $('.next'),
-    //     prevArrow : $('.prev'),
-
-        
-    //         responsive: [
-    //           {
-    //             breakpoint: 1024,
-    //             settings: {
-    //               slidesToShow: 3,
-    //               slidesToScroll: 3,
-    //               infinite: true,
-    //               dots: true
-    //             }
-    //           },
-    //           {
-    //             breakpoint: 600,
-    //             settings: {
-    //               slidesToShow: 2,
-    //               slidesToScroll: 2
-    //             }
-    //           },
-    //           {
-    //             breakpoint: 480,
-    //             settings: {
-    //               slidesToShow: 1,
-    //               slidesToScroll: 1
-    //             }
-    //           }
-    //           You can unslick at a given breakpoint now by adding:
-    //           settings: "unslick"
-    //           instead of a settings object
-    //         ]
-    //       });
-    //   });
-
+    
 
 
     let box = [
@@ -66,11 +27,7 @@ $(document).ready(function()
             text13: '𝗛𝗮𝗽𝗽𝘆 𝗘𝗶𝗱 𝗠𝘂𝗯𝗮𝗿𝗮𝗸𝗵 𝗗𝘂𝗯𝗮𝗶 – 𝟰 𝗗𝗮𝘆𝘀',
             text14: '𝗛𝗮𝗽𝗽𝘆 𝗘𝗶𝗱 𝗠𝘂𝗯𝗮𝗿𝗮𝗸𝗵',
         }
-        // {
-        //     id : 0,
-        //     img : "./blog1 (1).jpg" ,
-        //     text : 'Talha Hanif' , 
-        // }
+        
     ]
 
     let catagories = [...new Set(box.map((item)=>{return item}))];

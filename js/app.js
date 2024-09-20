@@ -7,7 +7,7 @@ $(document).ready(function () {
 let box = [
   {
     id: 0,
-    img: "../images/blog1 (1).jpg",
+    
     img1: "../images/beach1.jpg",
     text1: "MALDIVES – 5 DAY SPECIAL FROM KARACHI",
     text2: "UMRAH – MAKKAH and MADINA",
@@ -26,7 +26,7 @@ let box = [
   },
   // {
   //     id : 0,
-  //     img : "./blog1 (1).jpg" ,
+  //     img : "./blog1 (1).webp" ,
   //     text : 'Talha Hanif' ,
   // }
 ];
@@ -59,14 +59,14 @@ row.innerHTML = catagories.map((item) => {
     text14,
   } = item;
   return `
-            //   <div class=" col-xl-2  col-lg-4 col-md-4 col-sm-12">
-            //    <a href="../TourPlane/tourplane1.html"> <div class="img-area">
-            //         <img src= "${img1}" alt="">
-            //         <div class="img-text">
-            //             <h3>${text1}</h3>
-            //         </div> 
-            //     </div> </a>
-            // </div>
+              <div class=" col-xl-2  col-lg-4 col-md-4 col-sm-12">
+               <a href="../TourPlane/tourplane1.html"> <div class="img-area">
+                    <img src= "${img1}" alt="">
+                    <div class="img-text">
+                        <h3>${text1}</h3>
+                    </div> 
+                </div> </a>
+            </div>
        
 
         <div class=" col-xl-2  col-lg-4 col-md-4 col-sm-6">
@@ -184,11 +184,11 @@ row.innerHTML = catagories.map((item) => {
 let posts = [
   {
     id: 1,
-    img1: "../images/Europe.jpg",
-    img2: "../images/europeFlag.jpg",
-    img3: "../images/asia4.jpg",
-    img4: "../images/asia.jpg",
-    img5: "../images/america.jpg",
+    img1: "../images/Europe.webp",
+    img2: "../images/europeFlag.webp",
+    img3: "../images/asia4.webp",
+    img4: "../images/asia.webp",
+    img5: "../images/america.webp",
   },
 ];
 

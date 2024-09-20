@@ -35,9 +35,7 @@ border-radius: 2px;
 
 
 
-.bg-one {
-    /* background-image: url(../images/america.jpg); */
-}
+
 
 .parents:hover .child{
     transform: scale(1.1);

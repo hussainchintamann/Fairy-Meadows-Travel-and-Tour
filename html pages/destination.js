@@ -1,27 +1,27 @@
 const worldPacakge = [
     {
         text: "Baku Azerbaijan",
-        img: "../images/baku1.jpg"
+        img: "../images/baku1.webp"
     },
     {
         text : "Maldives",
-        img: "../images/maldives1.jpg"
+        img: "../images/maldives1.webp"
     },
     {
         text : "Malaysia",
-        img: "../images/malaysia1.jpg"
+        img: "../images/malaysia1.webp"
     },
     {
         text : "Sharm El Sheikh Egypt ",
-        img: "../images/egypt4.jpg"
+        img: "../images/egypt4.webp"
     },
     {
         text : "Singapore ",
-        img: "../images/singapore.jpg"
+        img: "../images/singapore.webp"
     },
     {
         text : "Thailand",
-        img: "../images/thailand2.jpg"
+        img: "../images/thailand2.webp"
     },
 ]
 

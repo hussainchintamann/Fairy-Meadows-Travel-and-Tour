@@ -79,7 +79,7 @@
   transition: 0.3s !important;
 }
 .service-item:hover {
-  background-color:#dfa8a1;
+  background-color:rgb(244, 129, 129);
   color: white !important;
   transition: 0s;
 }
@@ -88,7 +88,7 @@
   color: white  !important;
 }
 .service-item *{
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 .service-item:hover*{
  

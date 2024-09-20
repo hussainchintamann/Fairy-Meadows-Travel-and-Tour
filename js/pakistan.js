@@ -1,21 +1,21 @@
 const pakistanPackages = [
     {
         text : "Malam Jabba",
-        img: "../images/malam-jabba.jpg"
+        img: "../images/malam-jabba.webp"
     },
     {
         text : "Shogran",
-        img: "../images/shogran.jpg"
+        img: "../images/shogran.webp"
 
     },
     {
         text : "Hunza Skardu Gilgit",
-        img: "../images/hunza.jpg"
+        img: "../images/hunza.webp"
 
     },
     {
         text : "Swat",
-        img: "../images/kumrat.jpg"
+        img: "../images/kumrat.webp"
 
     },
 ]
