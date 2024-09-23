@@ -22,7 +22,7 @@ const pakistanPackages = [
 
 const generateCardHTML = (package,index)=>{
     return `
-     <div class="col-lg-3 col-md-6 " id="col">
+     <div class="col-lg-3 col-md-6 main " id="col">
         <div class="wrappers" id="wrappers">
           <div class="parents">
            
@@ -33,7 +33,7 @@ const generateCardHTML = (package,index)=>{
           </div>
           <div class="card-info card-body ">
             <h3  class="card-text" style=" margin: 0 0 10px;font-size: 1.5rem;color: #333;">${package.text} </h3>
-            <button class="btn btn-primary" onclick = "viewDetails(${index})">moreInfo</button>
+            <button  onclick = "viewDetails(${index})">MoreInfo</button>
           </div>
         </div>
         

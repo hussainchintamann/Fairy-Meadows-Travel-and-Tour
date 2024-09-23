@@ -4,10 +4,17 @@ $(document).ready(function () {
   });
 });
 
+const activePage = window.location.pathname;
+const navLink = document.querySelectorAll("header ul li a").forEach((Link) => {
+  if (Link.href.includes(`${activePage}`)) {
+    Link.classList.add("active");
+  }
+});
+
 let box = [
   {
     id: 0,
-    
+
     img1: "../images/beach1.jpg",
     text1: "MALDIVES – 5 DAY SPECIAL FROM KARACHI",
     text2: "UMRAH – MAKKAH and MADINA",
@@ -189,6 +196,9 @@ let posts = [
     img3: "../images/asia4.webp",
     img4: "../images/asia.webp",
     img5: "../images/america.webp",
+    text1: "Europe",
+    text2: "Asia",
+    text3: "America",
   },
 ];
 
@@ -202,7 +212,7 @@ let post = [
 let a = 0;
 let row1 = document.getElementById("nine-cards");
 row1.innerHTML = post.map((items) => {
-  var { img1, img2, img3, img4, img5 } = items;
+  var { img1, img2, img3, img4, img5, text1, text2, text3 } = items;
   return `
 <div class="col1 col-xl-4  col-lg-4 col-md-12 col-sm-12">
                 <div class="img-areas">
@@ -213,12 +223,12 @@ row1.innerHTML = post.map((items) => {
 
               
 
-            <div class=" col-xl-4  col-lg-4 col-md-12 col-sm-12">
-                <div class="img-areas">
-                    <img src="${img2}" alt="">
-
-                </div>
-            </div>
+            <div class="card bg-warning  col1 col-xl-4  col-lg-4 col-md-12 col-sm-12">
+        <div class="text-container">
+            <span class="text-blacks text-dark ">${text1}</span>
+            <span class="text-whites text-white">${text1}</span>
+        </div>
+    </div>
 
             <div class=" col col-xl-4  col-lg-4 col-md-12 col-sm-12">
                 <div class="img-texts img-text1">
@@ -255,21 +265,22 @@ row1.innerHTML = post.map((items) => {
 
                 </div>
             </div>
-            <div class="col2 col-xl-4  col-lg-4 col-md-12 col-sm-12">
-                <div class="img-areas">
-                    <img src="${img4}" alt="">
+            <div class="card bg-dark col1 col-xl-4  col-lg-4 col-md-12 col-sm-12">
+        <div class="text-container">
+            <span class="text-blacks text-white ">${text2}</span>
+            <span class="text-whites  text-warning ">${text2}</span>
+        </div>
+    </div>
 
-                </div>
-            </div>
 
 
 
-            <div class="col-xl-4  col-lg-4 col-md-12 col-sm-12">
-                <div class="img-areas">
-                    <img src="${img4}" alt="">
-
-                </div>
-            </div>
+            <div class="card bg-warning  col1 col-xl-4  col-lg-4 col-md-12 col-sm-12">
+        <div class="text-container">
+            <span class="text-blacks text-dark ">${text3}</span>
+            <span class="text-whites text-white">${text3}</span>
+        </div>
+    </div>
             <div class=" col col-xl-4  col-lg-4 col-md-12 col-sm-12">
                 <div class="img-texts img-text3">
 

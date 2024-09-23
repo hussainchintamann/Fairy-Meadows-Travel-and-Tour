@@ -37,6 +37,7 @@ border-radius: 2px;
 
 
 
+
 .parents:hover .child{
     transform: scale(1.1);
 }
@@ -44,10 +45,25 @@ border-radius: 2px;
 .card-info{
     background-color: #f8f3f3;
     width: 260px;
-    
     border-radius: 2px;
-    
 }
+
+.main .card-info button {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.main .card-info button:hover{
+    background-color: #e14b50;
+}
+
+
 
 @media only screen and (max-width:1024px) {
     .parents,.card-info {

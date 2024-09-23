@@ -28,7 +28,7 @@ const worldPacakge = [
 const generateCardHTMLWorld = (package,index)=>{
 
     return `
-    <div class="   col-lg-3 col-md-6 " id="col">
+    <div class=" main   col-lg-3 col-md-6 " id="col">
         <div class="wrappers" id="wrappers">
           <div class="parents">
             <div class="child bg-one"  style=" background-image: url(${package.img});">
@@ -37,7 +37,7 @@ const generateCardHTMLWorld = (package,index)=>{
           </div>
           <div class="card-info card-body ">
             <h3 style=" margin: 0 0 10px;font-size: 1.5rem;color: #333;" class="card-text">${package.text}</h3>
-            <button class="btn btn-primary" onclick="viewDetaileWorld(${index})">More Info</button>
+            <button  onclick="viewDetaileWorld(${index})">More Info</button>
           </div>
         </div>
       </div>
